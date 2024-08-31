@@ -1,0 +1,260 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 100%;
+    padding: 16px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 120px;
+    height: 12px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.nav-menu svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(255, 255, 255);
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-1 {
+    background-image: url("./assets/model3.png");
+}
+
+.section-2 {
+    background-image: url("./assets/modelY.png");
+}
+
+.section-3 {
+    background-image: url("./assets/modelX.png");
+}
+
+.section-4 {
+    background-image: url("./assets/modelS.png");
+}
+
+.section-5 {
+    background-image: url("./assets/cybertruckV3.png");
+}
+
+.section-6 {
+    background-image: url("./assets/solarpanels.png");
+}
+
+.section-7 {
+    background-image: url("./assets/solar-roof.png");
+}
+
+.section-8 {
+    background-image: url("./assets/powerwall.png");
+}
+
+.section-9 {
+    background-image: url("./assets/accessories.png");
+}
+
+.footer-section {
+    display: flex;
+    width: 100%;
+    min-height: 65vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    gap: 60px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    gap: 5px;
+}
+
+.content h1,
+.footer h1 {
+    display: flex;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.content h2,
+.footer h2 {
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.content h6,
+.footer h6 {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: rgb(208, 209, 210);
+    gap: 3px;
+}
+
+.content a,
+.footer .footer-content a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.content p,
+.footer p {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.content .power,
+.footer .power {
+    display: flex;
+    font-size: 7px;
+    margin-top: -2px
+}
+
+.content .logo {
+    width: 512px;
+    height: 210px;
+    margin-top: -50px;
+}
+
+.footer .paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.button-1 {
+    width: 264px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 106, 225);
+}
+
+.button-2 {
+    width: 264px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color: rgb(57, 60, 65);
+}
+
+.button-3 {
+    width: 264px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(17, 17, 17);
+    color: rgb(162, 163, 165);
+}
+
+.b-border {
+    border-top: 2.4px solid rgb(162, 163, 165);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.foot-menu a {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(208, 209, 210);
+}
